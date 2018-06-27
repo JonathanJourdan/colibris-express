@@ -1,12 +1,17 @@
 {
     "GET/": {
         "controler": "index",
-        "view": "index",
-        "title": "Colibris - Connexion"
+        "title": "Colibris - Connexion",
+        "authentified": true
+        
     },
-    "GET/user": {
-        "controler": "user",
-        "view": "user",
+    "GET/users": {
+        "controler": "users",
+        "schema": "Users",
+        "authentified": true
+    },
+    "POST/login": {
+        "controler": "login",
         "schema": "Users"
     },
     "GET/exos": {
